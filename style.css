@@ -1,0 +1,106 @@
+* {
+  margin: auto;
+  font-family: Arial;
+}
+body {
+  background: #FF6666;
+}
+hidden {
+  display: none;
+}
+input {
+  text-align: center;
+  background: none;
+  border: 2px solid white;
+}
+input:hover {
+  background: #EE3333;
+}
+input:hover[readonly] {
+  background: none !important;
+}
+#players {
+  background: red;
+  position: fixed;
+  height: 30vh;
+  top: 35vh;
+  text-align: center;
+  width: 100vw;
+}
+#players .left {
+  margin-top: 10vh;
+  height: 10vh;
+  width: 10vh;
+  margin-right: 20vw;
+  font-size: 6vh;
+  background: none;
+  border: none;
+}
+#players .left:hover, #players .right:hover, #players .sub:hover {
+  background: #EE0000;
+}
+#players .right {
+  height: 10vh;
+  width: 10vh;
+  margin-left: 20vw;
+  font-size: 6vh;
+  background: none;
+  border: none;
+}
+#players .sub {
+  background: none;
+  border: none;
+  height: 7vh;
+  width: 70vw;
+}
+#playerCount {
+  font-size: 6vh;
+}
+#data {
+  text-align: center;
+  font-size: 2vh;
+}
+#data input {
+  margin-left: 3vw;
+  width: 15vw;
+  height: 2vh;
+  margin-top:0.3vh;
+  font-size: 1.5vh;
+}
+#data input[type=checkbox] {
+  width: 5vw;
+  height: 5vw;
+  margin-left: 1vh;
+}
+hr {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  height: 1vh;
+  background: white;
+  border: none;
+}
+hr[invisible] {
+  background: none;
+}
+#playerChange .left {
+  height: 10vh;
+  width: 10vh;
+  margin-right: 5vw;
+  font-size: 5vh;
+  background: none;
+  border: none;
+}
+#playerChange .left:hover, #playerChange .right:hover {
+  background: #EE5555;
+}
+#playerChange .right {
+  height: 10vh;
+  width: 10vh;
+  margin-left: 5vw;
+  font-size: 5vh;
+  background: none;
+  border: none;
+}
+#playerCount2 {
+  font-size: 5vw;
+}
