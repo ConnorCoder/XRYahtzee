@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Yahtzee</title>
+  </head>
+  <body>
+    <div id="players">
+      <button class="left"><</button>
+      <span id="playerCount">2</span>
+      <button class="right">></button><br>
+      <button class="sub">Play!</button>
+    </div>
+    <div id="data" style="display:none">
+      <hr invisible>
+      <div id="playerChange">
+        <button class="left"><</button>
+        <span id="playerCount2" contentEditable="true">Player 1</span>
+          <button class="right">></button><hidden id="name">Player 1</hidden>
+      </div>
+      <hr>
+      <span>Aces</span><input id="aces"/><br>
+      <span>Twos</span><input id="twos"/><br>
+      <span>Threes</span><input id="threes"/><br>
+      <span>Fours</span><input id="fours"/><br>
+      <span>Fives</span><input id="fives"/><br>
+      <span>Sixes</span><input id="sixes"/><br>
+      <hr>
+      <span>Total Score</span><input readonly id="upper1"/><br>
+      <span>Bonus (Total >= 63)</span><input readonly type="checkbox" id="bonus"/><br>
+      <hr invisible>
+      <span>Total</span><input readonly id="upper"/><br>
+      <hr>
+      <span>3 Of A Kind</span><input id="3ofk"/><br>
+      <span>4 Of A Kind</span><input id="4ofk"/><br>
+      <span>Full House</span><input type="checkbox" id="full"/><br>
+      <span>Small Straight</span><input type="checkbox" id="small"/><br>
+      <span>Large Straight</span><input type="checkbox" id="large"/><br>
+      <span>Chance</span><input id="chance"/><br>
+      <span>Yahtzee</span><input type="checkbox" id="yahtzee"/><br>
+      <span>Bonus Yahtzee's</span><input type="checkbox" id="yaht1"/><input type="checkbox" id="yaht2"/><input type="checkbox" id="yaht3"/>
+      <hr>
+      <span>Total Of Upper</span><input readonly id="uppert"/><br>
+      <span>Total Of Lower</span><input readonly id="lowert"/><br>
+      <hr invisible>
+      <span>Overall Total</span><input readonly id="total"/>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
